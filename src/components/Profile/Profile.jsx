@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import css from './Profile.module.css';
 
 export default function UserProfile({username, tag, location, avatar, stats: {followers, views, likes}}) {
-  // const {followers, views, likes} = stats;
+  
     return (
         <div className={css.profile}>
 <div className={css.description}>
@@ -12,7 +12,7 @@ export default function UserProfile({username, tag, location, avatar, stats: {fo
     className={css.avatar}
     width={100} 
   />
-  <p className={css.name}><h1>{username}</h1></p>
+  <p className={css.name}><b>{username}</b></p>
   <p className={css.tag}>{tag}</p>
   <p className={css.location}>{location}</p>
 </div>
