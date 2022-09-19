@@ -27,12 +27,12 @@
   }
 
   .status {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     margin: auto 15px;
     
     border-radius: 50%;
-    color:brown;
+    background-color:brown;
     
   }
 
